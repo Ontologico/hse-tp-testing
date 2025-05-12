@@ -17,7 +17,7 @@ sudo apt update
 sudo apt install python3-venv
 
 python3 -m venv .venv
-.venv/bin/activate
+source ./.venv/bin/activate
 ```
 
 Далее нужно установить необходимые библиотеки:

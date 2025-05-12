@@ -9,4 +9,4 @@ def test_long_function():
 
     assert result == "hey"
     mock_sleep.assert_called_once()  # Дополнительная проверка, что time.sleep был вызван
-    # mock_sleep.assert_called_with(10**9)  # Можно даже проверить, с какими аргументами
+    mock_sleep.assert_called_with(10**9)  # Можно даже проверить, с какими аргументами
